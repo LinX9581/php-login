@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ja-jp">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700">
+<link href="font/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+<link href="css/linxstyle.css" rel="stylesheet">
+<title></title>
+</head>
+<body>
+
+<nav id="n">
+	<ul>
+		<li class="friend">
+			<a href="1"><i class="fa fa-users" aria-hidden="true"></i></a>
+		</li>
+		<li class="message">
+			<a href="2"><i class="fa fa-comment" aria-hidden="true"></i></a>
+		</li>
+		<li class="serch">
+			<a href="3"><i class="fa fa-plus" aria-hidden="true"></i></a>
+		</li>
+		<li class="serch">
+			<a href="3"><i class="fa fa-search" aria-hidden="true"></i></a>
+		</li>
+		<li class="setting">
+			<a href="3"><i class="fa fa-cog" aria-hidden="true"></i></a>
+		</li>
+
+	</ul>
+</nav>
+
+<div id="mainNavigation">
+	<div class="nav_user" onclick="javascript:fn()"><a href="#"><i class="fa fa-bars"></i></a></div>   
+</div>  
+
+<script>
+function fn()
+{
+  if (n.className == "showin_mobile") 
+	n.className = "showout_mobile";
+  else n.className = "showin_mobile";
+}
+</script>
+
+</body>
+</html>
